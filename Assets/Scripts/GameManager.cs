@@ -16,6 +16,16 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void StartPlayerSpawn()
+    {
+        StartCoroutine(Playerspawn());
+    }
+    public IEnumerator Playerspawn()
+    {
+        yield return new WaitForSeconds(3);
+        Debug.Log("Dzia³a");
+    }
+
     private void Awake()
     {
         _instance = this;
