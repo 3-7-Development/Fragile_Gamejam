@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private static GameManager _instance;
+    [SerializeField] private GameObject playerPrefab; 
     public static GameManager Instance
     {
         get
@@ -23,12 +24,14 @@ public class GameManager : MonoBehaviour
     public IEnumerator Playerspawn()
     {
         yield return new WaitForSeconds(3);
-        Debug.Log("Dzia³a");
+        Instantiate(playerPrefab, LevelManager.Instance.spawnPoint.transform.position, Quaternion.identity);
     }
 
     private void Awake()
     {
-        _instance = this;
+        if(_instance == null) _instance = this;
+        else Destroy(gameObject);
+        DontDestroyOnLoad(gameObject);
     }
     // Start is called before the first frame update
     void Start()
