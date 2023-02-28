@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerSpawner : MonoBehaviour
+public class VictoryPlatform : MonoBehaviour
 {
-    public GameObject player;
-
-    public void Spawn()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Instantiate(player, new Vector3(0, 0, 0), Quaternion.identity);
+        if (collision.gameObject.tag == "victorybrick")
+        {
+            LevelManager.Instance.Victory();
+        }
     }
     // Start is called before the first frame update
     void Start()

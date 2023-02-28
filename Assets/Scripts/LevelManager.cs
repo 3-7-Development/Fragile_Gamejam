@@ -16,6 +16,11 @@ public class LevelManager : MonoBehaviour
             return _instance;
         }
     }
+
+    public void Victory()
+    {
+        Debug.Log("You've Won!");
+    }
     private void Awake()
     {
         if (_instance == null) _instance = this;

@@ -132,7 +132,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 215980463}
-  - component: {fileID: 215980462}
   m_Layer: 0
   m_Name: player_spawner
   m_TagString: Untagged
@@ -140,19 +139,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &215980462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215980461}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd935d522222d5a44b57f0a845afca57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 5703099619299566217, guid: 50dcf17f06bf0db42a52824497032433, type: 3}
 --- !u!4 &215980463
 Transform:
   m_ObjectHideFlags: 0
@@ -226,7 +212,7 @@ GameObject:
   - component: {fileID: 365875970}
   m_Layer: 0
   m_Name: victory_pad
-  m_TagString: Untagged
+  m_TagString: victorybrick
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365875967}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.86, y: -0.54, z: 0}
+  m_LocalPosition: {x: 7.86, y: -0.42, z: 0}
   m_LocalScale: {x: 5.2692, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
