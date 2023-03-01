@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
         get
         {
             if (_instance == null)
-                Debug.LogError("Game Manager is not defined!");
+                Debug.LogError("Level Manager is not defined!");
 
             return _instance;
         }
