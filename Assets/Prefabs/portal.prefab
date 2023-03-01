@@ -147,4 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   linkedPortal: {fileID: 0}
+  layer:
+    serializedVersion: 2
+    m_Bits: 64
   tpReady: 1
