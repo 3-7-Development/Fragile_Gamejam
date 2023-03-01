@@ -75,10 +75,24 @@
     max-width: none;
     width: 19%;
     height: 100%;
-    background-color: rgba(28, 60, 74, 255);
-    color: rgba(237, 231, 232, 255);
+    background-color: rgb(28, 60, 74);
+    color: rgb(237, 231, 232);
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
+}
+
+.backButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 46px;
+}
+
+.button {
+    color: rgba(237, 231, 232, 255);
+    background-color: rgba(28, 60, 74, 255);
 }
