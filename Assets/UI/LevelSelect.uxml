@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=b6930b459f9f569449a11806020d4081&amp;type=3#Styles" />
+    <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" horizontal-scroller-visibility="Hidden" style="align-items: center; padding-top: 0; padding-left: 0; padding-right: 0; padding-bottom: 0; margin-top: 5%; height: 100%;">
+        <ui:VisualElement name="Container" style="align-items: center; height: auto; position: relative; left: 0; top: 0; right: 0; bottom: 0; width: 100%;">
+            <ui:VisualElement name="LevelColumn" style="height: 100%; align-items: center; flex-direction: row; flex-wrap: wrap; flex-shrink: 1; width: 90%; justify-content: flex-start; flex-grow: 0;" />
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>
