@@ -6,6 +6,10 @@ public class LevelManager : MonoBehaviour
 {
     private static LevelManager _instance;
     public Transform spawnPoint;
+    public bool spawning = false;
+    [SerializeField] private GameObject playerPrefab;
+    [SerializeField]private List<GameObject> players;
+
     public static LevelManager Instance
     {
         get
@@ -26,15 +30,23 @@ public class LevelManager : MonoBehaviour
         if (_instance == null) _instance = this;
         else Destroy(gameObject);
     }
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        
+        InvokeRepeating("SpawnPlayer", 0, 3);
     }
-
-    // Update is called once per frame
-    void Update()
+    private void SpawnPlayer()
     {
-        
+        if(spawning)
+        {
+            var newPlayer = Instantiate(playerPrefab, spawnPoint.transform.position, Quaternion.identity);
+            players.Add(newPlayer); 
+        }   
+    }
+    public void ClearPlayers()
+    {
+        foreach(GameObject player in players)
+        {
+            Destroy(player);
+        }
     }
 }

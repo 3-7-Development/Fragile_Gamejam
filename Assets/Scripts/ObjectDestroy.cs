@@ -10,19 +10,6 @@ public class ObjectDestroy : MonoBehaviour
         {
             Debug.Log("Hit Registered");
             Destroy(gameObject);
-
-            GameManager.Instance.StartPlayerSpawn();
         }
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }

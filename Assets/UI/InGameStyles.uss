@@ -1,0 +1,7 @@
+.modeButton {
+    height: 50px;
+    background-color: rgba(50, 91, 94, 255);
+}
+
+.selected {
+}
