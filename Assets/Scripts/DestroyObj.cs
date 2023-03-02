@@ -6,7 +6,7 @@ public class DestroyObj : MonoBehaviour
 {
     public void OnMouseOver()
     {
-        if (Input.GetMouseButtonDown(1)) // Right mouse button
+        if (Input.GetMouseButtonDown(0)) // Right mouse button
         {
             Destroy(gameObject);
         }

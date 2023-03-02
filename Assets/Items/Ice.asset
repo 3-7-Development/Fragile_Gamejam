@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1055b8b7c248db4683266b221ecff07, type: 3}
+  m_Name: Ice
+  m_EditorClassIdentifier: 
+  displayName: Ice
+  prefab: {fileID: 1694901309873416146, guid: 2c62d1b04c0b441419492745b7eefbc8, type: 3}
+  sprite: {fileID: 21300000, guid: 67f8ae4c9d4b4034981431e5524092e9, type: 3}

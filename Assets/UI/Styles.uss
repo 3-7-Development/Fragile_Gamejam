@@ -1,0 +1,117 @@
+.menuButton {
+    align-items: center;
+    width: 47%;
+    height: 15%;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 30px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: rgb(237, 231, 232);
+    background-color: rgb(28, 60, 74);
+    border-left-color: rgb(243, 207, 118);
+    border-right-color: rgb(243, 207, 118);
+    border-top-color: rgb(243, 207, 118);
+    border-bottom-color: rgb(243, 207, 118);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-text-outline-width: 0;
+    -unity-font-style: normal;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+}
+
+.menuButton:hover {
+    align-items: center;
+    width: 47%;
+    height: 15%;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 30px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: rgb(237, 231, 232);
+    background-color: rgb(50, 91, 94);
+    border-left-color: rgb(243, 207, 118);
+    border-right-color: rgb(243, 207, 118);
+    border-top-color: rgb(243, 207, 118);
+    border-bottom-color: rgb(243, 207, 118);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-text-outline-width: 0;
+    -unity-font-style: normal;
+    text-shadow: 0 0 0 rgb(0, 0, 0);
+}
+
+.levelTile {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 28px;
+    min-height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.levelTileButton {
+    max-width: none;
+    width: 19%;
+    height: 100%;
+    background-color: rgb(28, 60, 74);
+    color: rgb(237, 231, 232);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.backButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 46px;
+}
+
+.button {
+    color: rgb(237, 231, 232);
+    background-color: rgb(28, 60, 74);
+}
+
+.inventoryButton {
+    font-size: 0;
+    width: auto;
+    height: auto;
+    background-color: rgba(35, 179, 138, 255);
+    min-width: 10%;
+}
+
+.inventorySlotName {
+}
+
+.backgroundColor {
+    background-color: rgba(20, 117, 87, 255);
+}
+
+.alignCenter {
+    align-items: center;
+}
