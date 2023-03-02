@@ -29,5 +29,6 @@ public class InventorySlot
     private void SelectSlot(ClickEvent e)
     {
         Debug.Log("You selected " + item.displayName);
+        GridManager.Instance.SelectObcject(item.prefab.gameObject);
     }
 }
