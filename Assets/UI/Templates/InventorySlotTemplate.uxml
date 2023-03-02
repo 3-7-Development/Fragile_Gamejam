@@ -2,6 +2,6 @@
     <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=b6930b459f9f569449a11806020d4081&amp;type=3#Styles" />
     <ui:VisualElement>
         <ui:Button text="Button" display-tooltip-when-elided="true" class="inventoryButton" />
-        <ui:Label text="Label" display-tooltip-when-elided="true" />
+        <ui:Label text="Label" display-tooltip-when-elided="true" style="-unity-text-align: upper-center;" />
     </ui:VisualElement>
 </ui:UXML>

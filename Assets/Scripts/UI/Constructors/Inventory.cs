@@ -11,9 +11,9 @@ public class Inventory
         TemplateContainer inventoryContainer = inventoryTemplate.Instantiate();
         inventory = inventoryContainer.Q("Inventory");
         VisualElement itemsRow = inventory.Q("ItemsRow");
-        itemsRow.AddToClassList("backgroundColor");
-        //Color bgColor = new Color(20, 117, 87, 1);
-        //itemsRow.style.backgroundColor = bgColor;
+        //itemsRow.AddToClassList("backgroundColor");
+        Color bgColor = new Color(0.07f, 0.45f, 0.33f);
+        itemsRow.style.backgroundColor = bgColor;
         foreach (ItemObject item in inventoryContent)
         {
             InventorySlot slot = new InventorySlot(item, inventorySlotTemplate);

@@ -21,8 +21,6 @@ public class InventorySlot
         itemName.text = item.displayName;
         button.text = "";
         button.style.backgroundImage = new StyleBackground(item.sprite);
-        //add styles
-        container.style.alignItems = Align.Center;
         //add event listeners
         button.RegisterCallback<ClickEvent>(SelectSlot);
     }
