@@ -33,16 +33,8 @@ public class InGameView : View
     {
         if (inventoryContent.Count > 0)
         {
-            TemplateContainer inventoryContainer = inventoryTemplate.Instantiate();
-            VisualElement inventory = inventoryContainer.Q("Inventory");
-            VisualElement itemsRow = inventory.Q("ItemsRow");
-            itemsRow.style.backgroundColor = new Color(20, 117, 87);
-            foreach (ItemObject item in inventoryContent)
-            {
-                InventorySlot slot = new InventorySlot(item, inventorySlotTemplate);
-                itemsRow.Add(slot.container);
-            }
-            document.rootVisualElement.Add(inventory);
+            Inventory inv = new Inventory(inventoryContent, inventorySlotTemplate, inventoryTemplate);
+            document.rootVisualElement.Add(inv.inventory);
         }
     }
     private void PlayMode()
