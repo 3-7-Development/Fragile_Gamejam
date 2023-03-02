@@ -76,18 +76,26 @@
     width: 19%;
     height: 100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: rgb(28, 60, 74);
     color: rgb(237, 231, 232);
 =======
     background-color: rgba(28, 60, 74, 255);
     color: rgba(237, 231, 232, 255);
 >>>>>>> 58197e4 (Napraw sie konflikcie)
+=======
+    background-color: rgb(28, 60, 74);
+    color: rgb(237, 231, 232);
+>>>>>>> e41871c (TAK)
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e41871c (TAK)
 
 .backButton {
     width: 50px;
@@ -99,6 +107,7 @@
 }
 
 .button {
+<<<<<<< HEAD
     color: rgb(237, 231, 232);
     background-color: rgb(28, 60, 74);
 }
@@ -123,3 +132,8 @@
 }
 =======
 >>>>>>> 58197e4 (Napraw sie konflikcie)
+=======
+    color: rgba(237, 231, 232, 255);
+    background-color: rgba(28, 60, 74, 255);
+}
+>>>>>>> e41871c (TAK)

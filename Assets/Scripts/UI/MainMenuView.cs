@@ -4,16 +4,18 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 
-public class MainMenuTest : MonoBehaviour
+public class MainMenuView : View
 {
     private Button playButton;
-    private void Awake()
+
+    protected override void OnEnable()
     {
+        base.OnEnable();
         var root = GetComponent<UIDocument>().rootVisualElement;
         playButton = root.Q<Button>("PlayButton");
         playButton.clicked += () =>
         {
-            Debug.Log("Play");
+            ViewManager.Show<LevelSelectView>();
         };
     }
 }
