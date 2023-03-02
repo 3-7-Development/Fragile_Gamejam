@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1466
+    x: 1283
     y: 0
     width: 454
     height: 947
@@ -898,18 +898,18 @@ MonoBehaviour:
 >>>>>>> 58197e4 (Napraw sie konflikcie):UserSettings/Layouts/default-2021.dwlt
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Gabka
+        m_OriginalName: Gabka
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -4912
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
 <<<<<<< HEAD:UserSettings/Layouts/CurrentMaximizeLayout.dwlt
         m_ClientGUIView: {fileID: 7}
