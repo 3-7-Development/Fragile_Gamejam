@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class GridManager : MonoBehaviour
 {
-    public static GridManager Instance;
-    public GameObject selectedObject;
-
     private Grid grid;
 
     private List<GameObject> gridObjects;
@@ -16,14 +13,6 @@ public class GridManager : MonoBehaviour
 
     void Awake()
     {
-        if(Instance== null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
         grid = GetComponent<Grid>();
         grid.cellGap = new Vector3();
 
