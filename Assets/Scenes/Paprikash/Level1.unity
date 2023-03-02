@@ -602,11 +602,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13cef6a957007ec459724ff64fab9aca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   inventoryTemplate: {fileID: 9197481963319205126, guid: b03792117fbd7f248b808c8a3f2f087a, type: 3}
   inventorySlotTemplate: {fileID: 9197481963319205126, guid: 79b1df5cc359b1b4887253d71d3d864a, type: 3}
   inventoryContent:
   - {fileID: 11400000, guid: fb6ebcee1fa59224a9267e05bec2f1f3, type: 2}
   - {fileID: 11400000, guid: 93dc644de24935b4bbe83cbd9cf88262, type: 2}
+=======
+>>>>>>> 889ff3f (...)
 --- !u!1 &1683151870
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,7 +742,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1893444180}
   - component: {fileID: 1893444179}
+<<<<<<< HEAD
   - component: {fileID: 1893444181}
+=======
+>>>>>>> 889ff3f (...)
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -806,13 +812,18 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893444178}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0.46200368, w: 0.886878}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> 889ff3f (...)
   m_LocalPosition: {x: -8.4, y: 0.040233325, z: 0}
   m_LocalScale: {x: 8.775, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -55.033}
 --- !u!61 &1893444181
 BoxCollider2D:
@@ -840,6 +851,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 889ff3f (...)
 --- !u!1001 &1986213648
 PrefabInstance:
   m_ObjectHideFlags: 0

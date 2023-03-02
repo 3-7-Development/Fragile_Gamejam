@@ -1,7 +1,13 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/InGameStyles.uss?fileID=7433441132597879392&amp;guid=0cbf4418b6984be47b76e9d50fdcec85&amp;type=3#InGameStyles" />
+<<<<<<< HEAD
     <ui:VisualElement name="ModeButtons" style="flex-direction: row;">
         <ui:Button text="Play Mode" display-tooltip-when-elided="true" name="PlayButton" class="modeButton unselected" />
+=======
+    <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=b6930b459f9f569449a11806020d4081&amp;type=3#Styles" />
+    <ui:VisualElement name="ModeButtons" style="flex-direction: row;">
+        <ui:Button text="Play Mode" display-tooltip-when-elided="true" name="PlayButton" class="modeButton button" />
+>>>>>>> 889ff3f (...)
         <ui:Button text="Build Mode" display-tooltip-when-elided="true" name="BuildButton" class="modeButton selected" />
     </ui:VisualElement>
 </ui:UXML>
