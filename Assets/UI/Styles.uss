@@ -93,6 +93,25 @@
 }
 
 .button {
-    color: rgba(237, 231, 232, 255);
-    background-color: rgba(28, 60, 74, 255);
+    color: rgb(237, 231, 232);
+    background-color: rgb(28, 60, 74);
+}
+
+.inventoryButton {
+    font-size: 0;
+    width: auto;
+    height: auto;
+    background-color: rgba(35, 179, 138, 255);
+    min-width: 10%;
+}
+
+.inventorySlotName {
+}
+
+.backgroundColor {
+    background-color: rgba(20, 117, 87, 255);
+}
+
+.alignCenter {
+    align-items: center;
 }
