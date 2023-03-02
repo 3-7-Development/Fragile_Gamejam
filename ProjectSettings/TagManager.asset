@@ -6,6 +6,8 @@ TagManager:
   tags:
   - killbrick
   - victorybrick
+  - obj
+  - RedObj
   layers:
   - Default
   - TransparentFX

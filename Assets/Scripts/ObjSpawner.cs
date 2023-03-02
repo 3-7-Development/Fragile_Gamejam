@@ -20,7 +20,7 @@ public class ObjSpawner : MonoBehaviour
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             pos.z= 0;
             Instantiate(obj, pos, Quaternion.identity);
-            Debug.Log(pos);
+            //Debug.Log(pos);
         }
     }
 }
