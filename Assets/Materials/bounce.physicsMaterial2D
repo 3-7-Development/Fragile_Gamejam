@@ -10,6 +10,7 @@ PhysicsMaterial2D:
   friction: 0.4
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   bounciness: 0.9
 =======
   bounciness: 0
@@ -17,3 +18,6 @@ PhysicsMaterial2D:
 =======
   bounciness: 0
 >>>>>>> 7f73947 (Napraw sie)
+=======
+  bounciness: 0.9
+>>>>>>> 767638b (lodzik)
