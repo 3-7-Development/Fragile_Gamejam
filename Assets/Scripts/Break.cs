@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Break : MonoBehaviour
 {
+<<<<<<< HEAD
     public GameObject ps;
 
     
@@ -16,4 +17,10 @@ public class Break : MonoBehaviour
         Destroy(transform.gameObject);
     }
     
+=======
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        Destroy(transform.gameObject);
+    }
+>>>>>>> 4493fd5 (rick and morthy update)
 }

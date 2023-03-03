@@ -13,8 +13,11 @@ GameObject:
   - component: {fileID: 5518105093152739147}
   - component: {fileID: 5518105093152739144}
   - component: {fileID: 5518105093152739145}
+<<<<<<< HEAD
   - component: {fileID: 1917666241}
   - component: {fileID: 1917666240}
+=======
+>>>>>>> 4493fd5 (rick and morthy update)
   m_Layer: 0
   m_Name: Czekolada
   m_TagString: killbrick
@@ -148,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f141b5d714b03484ea6a13e08fbf32fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   ps: {fileID: 1614970260095421790, guid: 4355bd75c1f669544a4236d4a2472553, type: 3}
 --- !u!198 &1917666241
 ParticleSystem:
@@ -4986,3 +4990,5 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+=======
+>>>>>>> 4493fd5 (rick and morthy update)

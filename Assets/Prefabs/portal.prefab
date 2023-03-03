@@ -147,7 +147,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   linkedPortal: {fileID: 0}
+<<<<<<< HEAD
   layer:
     serializedVersion: 2
     m_Bits: 64
+=======
+>>>>>>> 4493fd5 (rick and morthy update)
   tpReady: 1

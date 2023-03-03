@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   power: 25
 --- !u!198 &2187282036285478719
 ParticleSystem:
@@ -4961,6 +4962,9 @@ ParticleSystemRenderer:
 =======
   power: 100
 >>>>>>> 2949593 (rtx brrr wiatr)
+=======
+  power: 50
+>>>>>>> 4493fd5 (rick and morthy update)
 --- !u!1 &1232391203444735744
 GameObject:
   m_ObjectHideFlags: 0
