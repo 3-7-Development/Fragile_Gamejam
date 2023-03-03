@@ -77,6 +77,7 @@
     height: 100%;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: rgb(28, 60, 74);
     color: rgb(237, 231, 232);
 =======
@@ -87,11 +88,16 @@
     background-color: rgb(28, 60, 74);
     color: rgb(237, 231, 232);
 >>>>>>> e41871c (TAK)
+=======
+    background-color: rgba(28, 60, 74, 255);
+    color: rgba(237, 231, 232, 255);
+>>>>>>> 58197e4 (Napraw sie konflikcie)
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -137,3 +143,5 @@
     background-color: rgba(28, 60, 74, 255);
 }
 >>>>>>> e41871c (TAK)
+=======
+>>>>>>> 58197e4 (Napraw sie konflikcie)
