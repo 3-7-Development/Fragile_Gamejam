@@ -663,9 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryTemplate: {fileID: 9197481963319205126, guid: b03792117fbd7f248b808c8a3f2f087a, type: 3}
   inventorySlotTemplate: {fileID: 9197481963319205126, guid: 79b1df5cc359b1b4887253d71d3d864a, type: 3}
-  inventoryContent:
-  - {fileID: 11400000, guid: fb6ebcee1fa59224a9267e05bec2f1f3, type: 2}
-  - {fileID: 11400000, guid: 93dc644de24935b4bbe83cbd9cf88262, type: 2}
+  inventoryObject: {fileID: 11400000, guid: e6c16c734319ccc4c9e4d653f39ab96c, type: 2}
 --- !u!1 &1683151870
 GameObject:
   m_ObjectHideFlags: 0

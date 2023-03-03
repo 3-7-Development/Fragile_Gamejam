@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1055b8b7c248db4683266b221ecff07, type: 3}
+  m_Name: Fan
+  m_EditorClassIdentifier: 
+  displayName: Fan
+  prefab: {fileID: 2466414893742512391, guid: 5903811f5bfcef3459854f8d2d83aa8d, type: 3}
+  sprite: {fileID: 21300000, guid: 07c0b55ff02b962419a804bb1c9d71f3, type: 3}
