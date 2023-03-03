@@ -1309,14 +1309,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &2022032217
 >>>>>>> c3a25d1 (prosze)
+=======
+--- !u!1001 &1241506311642530883
+>>>>>>> cf9b53a (gabka)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1694901309873416146, guid: 2c62d1b04c0b441419492745b7eefbc8, type: 3}
       propertyPath: m_Name
       value: lod (2)
@@ -1430,6 +1435,58 @@ PrefabInstance:
 >>>>>>> 7f73947 (Napraw sie)
 =======
 >>>>>>> 7f73947 (Napraw sie)
+=======
+    - target: {fileID: 5331893826960885360, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_Name
+      value: Gabka
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.25646138
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7204215718430384498, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6465f6e5961504d41bd699bfae0c8a74, type: 3}
+>>>>>>> cf9b53a (gabka)
 --- !u!1001 &5703099619117272885
 PrefabInstance:
   m_ObjectHideFlags: 0

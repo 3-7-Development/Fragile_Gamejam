@@ -15,8 +15,13 @@ TagManager:
   - Objs
   - Water
   - UI
+<<<<<<< HEAD
   - teleportable
   - ice
+=======
+  - sponge
+  - 
+>>>>>>> cf9b53a (gabka)
   - 
   - 
   - 
