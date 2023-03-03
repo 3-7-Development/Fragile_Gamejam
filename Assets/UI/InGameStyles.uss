@@ -1,7 +1,11 @@
 .modeButton {
     height: 50px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: rgb(50, 91, 94);
+=======
+    background-color: rgba(50, 91, 94, 255);
+>>>>>>> 889ff3f (...)
 =======
     background-color: rgba(50, 91, 94, 255);
 >>>>>>> 889ff3f (...)
@@ -10,9 +14,12 @@
 .selected {
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .unselected {
     background-color: rgba(28, 60, 74, 255);
 }
+=======
+>>>>>>> 889ff3f (...)
 =======
 >>>>>>> 889ff3f (...)

@@ -603,11 +603,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   inventoryTemplate: {fileID: 9197481963319205126, guid: b03792117fbd7f248b808c8a3f2f087a, type: 3}
   inventorySlotTemplate: {fileID: 9197481963319205126, guid: 79b1df5cc359b1b4887253d71d3d864a, type: 3}
   inventoryContent:
   - {fileID: 11400000, guid: fb6ebcee1fa59224a9267e05bec2f1f3, type: 2}
   - {fileID: 11400000, guid: 93dc644de24935b4bbe83cbd9cf88262, type: 2}
+=======
+>>>>>>> 889ff3f (...)
 =======
 >>>>>>> 889ff3f (...)
 --- !u!1 &1683151870
@@ -743,7 +746,10 @@ GameObject:
   - component: {fileID: 1893444180}
   - component: {fileID: 1893444179}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 1893444181}
+=======
+>>>>>>> 889ff3f (...)
 =======
 >>>>>>> 889ff3f (...)
   m_Layer: 0
@@ -813,7 +819,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893444178}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0.46200368, w: 0.886878}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> 889ff3f (...)
 =======
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 >>>>>>> 889ff3f (...)
@@ -823,6 +833,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -55.033}
 --- !u!61 &1893444181
@@ -851,6 +862,9 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> 889ff3f (...)
 =======
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 >>>>>>> 889ff3f (...)

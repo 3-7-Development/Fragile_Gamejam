@@ -5,7 +5,6 @@ using UnityEngine.UIElements;
 
 public class InGameView : View
 {
-<<<<<<< HEAD
     [SerializeField] private VisualTreeAsset inventoryTemplate;
     [SerializeField] private VisualTreeAsset inventorySlotTemplate;
     [SerializeField] private List<ItemObject> inventoryContent;
@@ -22,23 +21,19 @@ public class InGameView : View
         //ekwipunek
         InitializeInventory();
     }
-    private void InitializeModeButtons()
-    {
-=======
     private Button playButton;
     private Button buildButton;
 
     protected override void OnEnable()
     {
         base.OnEnable();
->>>>>>> 889ff3f (...)
+
         playButton = document.rootVisualElement.Q<Button>("PlayButton");
         buildButton = document.rootVisualElement.Q<Button>("BuildButton");
 
         playButton.clicked += PlayMode;
         buildButton.clicked += BuildMode;
     }
-<<<<<<< HEAD
     private void InitializeInventory()
     {
         if (inventoryContent.Count > 0)
@@ -47,8 +42,6 @@ public class InGameView : View
             document.rootVisualElement.Add(inv.inventory);
         }
     }
-=======
->>>>>>> 889ff3f (...)
     private void PlayMode()
     {
         LevelManager.Instance.spawning= true;
@@ -60,16 +53,7 @@ public class InGameView : View
         SelectClass(buildButton, playButton);
         LevelManager.Instance.ClearPlayers();
     }
-<<<<<<< HEAD
-    //zmiana klas przycisków
-    private void SelectClass(Button selected, Button unselected)
-    {
-        selected.RemoveFromClassList("unselected");
-        selected.AddToClassList("selected");
-
-        unselected.RemoveFromClassList("selected");
-        unselected.AddToClassList("unselected");
-=======
+    //zmiana klas przyciskï¿½w
     private void SelectClass(Button selected, Button unselected)
     {
         selected.RemoveFromClassList("button");
@@ -77,6 +61,5 @@ public class InGameView : View
 
         unselected.RemoveFromClassList("selected");
         unselected.AddToClassList("button");
->>>>>>> 889ff3f (...)
     }
 }
