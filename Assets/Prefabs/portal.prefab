@@ -148,9 +148,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linkedPortal: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   layer:
     serializedVersion: 2
     m_Bits: 64
 =======
 >>>>>>> 4493fd5 (rick and morthy update)
+=======
+  layer:
+    serializedVersion: 2
+    m_Bits: 64
+>>>>>>> 8a3e83b (pingwin cie nienawidzi)
   tpReady: 1
