@@ -7,7 +7,7 @@ public class InGameView : View
 {
     [SerializeField] private VisualTreeAsset inventoryTemplate;
     [SerializeField] private VisualTreeAsset inventorySlotTemplate;
-    [SerializeField] private List<ItemObject> inventoryContent;
+    [SerializeField] private InventoryObject inventoryObject;
     private Button playButton;
     private Button buildButton;
 
@@ -44,9 +44,9 @@ public class InGameView : View
     }
     private void InitializeInventory()
     {
-        if (inventoryContent.Count > 0)
+        if (inventoryObject.content.Count > 0)
         {
-            Inventory inv = new Inventory(inventoryContent, inventorySlotTemplate, inventoryTemplate);
+            Inventory inv = new Inventory(inventoryObject, inventoryTemplate, inventorySlotTemplate);
             document.rootVisualElement.Add(inv.inventory);
             TemplateContainer inventoryContainer = inventoryTemplate.Instantiate();
             VisualElement inventory = inventoryContainer.Q("Inventory");
