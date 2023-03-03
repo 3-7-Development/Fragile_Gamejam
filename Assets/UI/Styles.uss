@@ -123,6 +123,9 @@
 .button {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50788ac (Ekwipunek część 1)
     color: rgb(237, 231, 232);
     background-color: rgb(28, 60, 74);
 }
@@ -144,12 +147,15 @@
 
 .alignCenter {
     align-items: center;
+<<<<<<< HEAD
 }
 =======
 >>>>>>> 58197e4 (Napraw sie konflikcie)
 =======
     color: rgba(237, 231, 232, 255);
     background-color: rgba(28, 60, 74, 255);
+=======
+>>>>>>> 50788ac (Ekwipunek część 1)
 }
 >>>>>>> e41871c (TAK)
 =======

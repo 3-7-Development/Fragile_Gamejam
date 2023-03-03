@@ -24,10 +24,18 @@ public class InGameView : View
     private Button playButton;
     private Button buildButton;
 
+
     protected override void OnEnable()
     {
         base.OnEnable();
+        //przyciski zmiany trybu
+        InitializeModeButtons();
 
+        //ekwipunek
+        InitializeInventory();
+    }
+    private void InitializeModeButtons()
+    {
         playButton = document.rootVisualElement.Q<Button>("PlayButton");
         buildButton = document.rootVisualElement.Q<Button>("BuildButton");
 
@@ -40,6 +48,16 @@ public class InGameView : View
         {
             Inventory inv = new Inventory(inventoryContent, inventorySlotTemplate, inventoryTemplate);
             document.rootVisualElement.Add(inv.inventory);
+            TemplateContainer inventoryContainer = inventoryTemplate.Instantiate();
+            VisualElement inventory = inventoryContainer.Q("Inventory");
+            VisualElement itemsRow = inventory.Q("ItemsRow");
+            itemsRow.style.backgroundColor = new Color(20, 117, 87);
+            foreach (ItemObject item in inventoryContent)
+            {
+                InventorySlot slot = new InventorySlot(item, inventorySlotTemplate);
+                itemsRow.Add(slot.container);
+            }
+            document.rootVisualElement.Add(inventory);
         }
     }
     private void PlayMode()

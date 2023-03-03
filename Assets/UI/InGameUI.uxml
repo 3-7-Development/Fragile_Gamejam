@@ -2,6 +2,9 @@
     <Style src="project://database/Assets/UI/InGameStyles.uss?fileID=7433441132597879392&amp;guid=0cbf4418b6984be47b76e9d50fdcec85&amp;type=3#InGameStyles" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 50788ac (Ekwipunek część 1)
     <ui:VisualElement name="ModeButtons" style="flex-direction: row;">
         <ui:Button text="Play Mode" display-tooltip-when-elided="true" name="PlayButton" class="modeButton unselected" />
 =======
