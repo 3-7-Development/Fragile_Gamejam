@@ -7,6 +7,7 @@
 =======
     <Style src="project://database/Assets/UI/Styles.uss?fileID=7433441132597879392&amp;guid=b6930b459f9f569449a11806020d4081&amp;type=3#Styles" />
     <ui:VisualElement name="ModeButtons" style="flex-direction: row;">
+<<<<<<< HEAD
         <ui:Button text="Play Mode" display-tooltip-when-elided="true" name="PlayButton" class="modeButton button" />
 >>>>>>> 889ff3f (...)
 =======
@@ -14,6 +15,9 @@
     <ui:VisualElement name="ModeButtons" style="flex-direction: row;">
         <ui:Button text="Play Mode" display-tooltip-when-elided="true" name="PlayButton" class="modeButton button" />
 >>>>>>> 889ff3f (...)
+=======
+        <ui:Button text="Play Mode" display-tooltip-when-elided="true" name="PlayButton" class="modeButton unselected" />
+>>>>>>> 00b3d9c (zmienione nazwy klas na buttonach)
         <ui:Button text="Build Mode" display-tooltip-when-elided="true" name="BuildButton" class="modeButton selected" />
     </ui:VisualElement>
 </ui:UXML>

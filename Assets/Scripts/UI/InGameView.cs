@@ -56,10 +56,10 @@ public class InGameView : View
     //zmiana klas przycisk�w
     private void SelectClass(Button selected, Button unselected)
     {
-        selected.RemoveFromClassList("button");
+        selected.RemoveFromClassList("unselected");
         selected.AddToClassList("selected");
 
         unselected.RemoveFromClassList("selected");
-        unselected.AddToClassList("button");
+        unselected.AddToClassList("unselected");
     }
 }

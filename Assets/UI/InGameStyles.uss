@@ -2,6 +2,7 @@
     height: 50px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: rgb(50, 91, 94);
 =======
     background-color: rgba(50, 91, 94, 255);
@@ -9,17 +10,26 @@
 =======
     background-color: rgba(50, 91, 94, 255);
 >>>>>>> 889ff3f (...)
+=======
+    background-color: rgb(50, 91, 94);
+>>>>>>> 00b3d9c (zmienione nazwy klas na buttonach)
 }
 
 .selected {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 00b3d9c (zmienione nazwy klas na buttonach)
 
 .unselected {
     background-color: rgba(28, 60, 74, 255);
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 889ff3f (...)
 =======
 >>>>>>> 889ff3f (...)
+=======
+>>>>>>> 00b3d9c (zmienione nazwy klas na buttonach)
