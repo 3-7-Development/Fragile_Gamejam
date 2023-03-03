@@ -64,12 +64,15 @@ public class InGameView : View
     {
         LevelManager.Instance.spawning= true;
         SelectClass(playButton, buildButton);
+        document.rootVisualElement.Q<VisualElement>("ItemsRow").style.display = DisplayStyle.None;
     }
     private void BuildMode()
     {
         LevelManager.Instance.spawning = false;
         SelectClass(buildButton, playButton);
         LevelManager.Instance.ClearPlayers();
+        document.rootVisualElement.Q<VisualElement>("ItemsRow").style.display = DisplayStyle.Flex;
+
     }
     //zmiana klas przycisk�w
     private void SelectClass(Button selected, Button unselected)

@@ -131,10 +131,9 @@
 }
 
 .inventoryButton {
-    font-size: 0;
     width: auto;
     height: auto;
-    background-color: rgba(35, 179, 138, 255);
+    background-color: rgb(35, 179, 138);
     min-width: 10%;
 }
 
@@ -142,7 +141,7 @@
 }
 
 .backgroundColor {
-    background-color: rgba(20, 117, 87, 255);
+    background-color: rgb(20, 117, 87);
 }
 
 .alignCenter {
